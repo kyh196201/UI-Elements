@@ -1,0 +1,15 @@
+/* Ref: https://codepen.io/alvarotrigo/pen/vYdYRwb */
+:root {
+  --green-color: #329e78;
+  --green-focus-color: #20644c;
+  --blue-color: #3785bc;
+  --blue-focus-color: #265b81;
+  --red-color: #dd3c3a;
+  --red-focus-color: #ad201e;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
