@@ -1,20 +1,18 @@
 /* checkbox */
 .checkbox {
+  display: inline-block;
+  font-size: 0;
   user-select: none;
-}
-
-.checkbox input {
-  position: absolute;
-  opacity: 0;
 }
 
 .checkbox span {
   display: inline-block;
   position: relative;
-  padding-left: 30px;
+  padding-left: 28px;
   font-size: 13px;
-  line-height: 18px;
+  line-height: 20px;
   vertical-align: middle;
+  cursor: pointer;
 }
 
 .checkbox span::before {
@@ -24,7 +22,6 @@
   left: 0;
   width: 20px;
   height: 20px;
-  margin-top: -1px;
   border-radius: 3px;
   background-color: var(--green-color);
 }
@@ -33,7 +30,7 @@
   background-image: url('../icons/checkbox.svg');
   background-repeat: no-repeat;
   background-position: center center;
-  background-size: 12px auto;
+  background-size: 13px auto;
 }
 
 /* .checkbox input:checked:focus + span::before {
